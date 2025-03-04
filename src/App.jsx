@@ -18,8 +18,11 @@ function App() {
   )
   return (
     <>
-      <h1>Welcome</h1>
-      {formattedTime}
+      <div className='clock-container'>
+        <div className='clock'>
+          {formattedTime}
+        </div>
+       </div>
     </>
   )
 }
